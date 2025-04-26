@@ -2,6 +2,7 @@
 layout: page
 title: Contact Us
 description: Get in touch with Nova AI. We're here to answer your questions about our AI-powered app development platform.
+permalink: /contact/
 ---
 
 <div class="max-w-5xl mx-auto">

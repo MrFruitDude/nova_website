@@ -2,6 +2,7 @@
 layout: page
 title: About Nova AI
 description: Learn about Nova AI, our mission, and the team behind our innovative AI-powered app development platform.
+permalink: /about/
 ---
 
 <div class="relative">

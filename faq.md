@@ -2,6 +2,7 @@
 layout: page
 title: Frequently Asked Questions
 description: Get answers to common questions about Nova AI and our AI-powered app development platform.
+permalink: /faq/
 ---
 
 <div class="max-w-5xl mx-auto px-4 py-16">
