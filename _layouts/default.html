@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova – {{ page.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Nova – {{ page.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/logos/nova-logo.png">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css">
+  
+  <!-- Tailwind CDN for utility classes -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  
+  {% seo title=false %}
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col">
+  {% include header.html %}
+  
+  <main id="main" class="flex-grow">
+    {{ content }}
+  </main>
+  
+  {% include footer.html %}
+  
+  <!-- Simple vanilla JS for mobile menu toggle -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      
+      if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+      
+      // Handle form submission for contact form
+      const contactForm = document.getElementById('contact-form');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          const thankYouMessage = document.getElementById('form-success');
+          if (thankYouMessage) {
+            setTimeout(() => {
+              thankYouMessage.classList.remove('hidden');
+              contactForm.reset();
+            }, 500);
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html> 

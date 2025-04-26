@@ -1,0 +1,39 @@
+<header class="bg-gray-900 text-white sticky top-0 z-10 shadow-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center py-4">
+      <div class="flex items-center">
+        <a href="{{ '/' | relative_url }}" class="flex items-center">
+          <img src="{{ '/assets/img/logos/nova-logo.png' | relative_url }}" alt="Nova Logo" class="h-10 w-auto mr-3">
+          <span class="text-xl font-bold">Nova</span>
+        </a>
+      </div>
+      
+      <!-- Desktop Navigation -->
+      <nav aria-label="Main" class="hidden md:flex space-x-8">
+        <a href="{{ '/' | relative_url }}" class="text-white hover:text-blue-400 transition-colors duration-200 font-medium">Home</a>
+        <a href="{{ '/services/' | relative_url }}" class="text-white hover:text-blue-400 transition-colors duration-200 font-medium">Services</a>
+        <a href="{{ '/apps/' | relative_url }}" class="text-white hover:text-blue-400 transition-colors duration-200 font-medium">Apps</a>
+        <a href="{{ '/contact/' | relative_url }}" class="text-white hover:text-blue-400 transition-colors duration-200 font-medium">Contact</a>
+      </nav>
+      
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button id="menu-toggle" type="button" class="text-white hover:text-blue-400 focus:outline-none" aria-label="Toggle menu">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="md:hidden hidden">
+      <div class="px-2 pt-2 pb-4 space-y-1 sm:px-3">
+        <a href="{{ '/' | relative_url }}" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800 hover:text-blue-400">Home</a>
+        <a href="{{ '/services/' | relative_url }}" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800 hover:text-blue-400">Services</a>
+        <a href="{{ '/apps/' | relative_url }}" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800 hover:text-blue-400">Apps</a>
+        <a href="{{ '/contact/' | relative_url }}" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800 hover:text-blue-400">Contact</a>
+      </div>
+    </div>
+  </div>
+</header> 

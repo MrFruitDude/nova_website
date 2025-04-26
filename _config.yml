@@ -1,0 +1,28 @@
+title: Nova
+email: hello@nova-apps.com
+description: >-
+  Nova - Innovative software. Thoughtful experiences. We build cutting-edge apps 
+  and provide custom software development services.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - README.md 
