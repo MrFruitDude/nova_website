@@ -6,6 +6,15 @@ $primary: #74B9FF;
 $secondary: #FFB86B;
 $white: #fff;
 
+// Reset styles to remove any default spacing
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
 // Base styles
 body {
   font-family: 'Inter', sans-serif;
@@ -231,6 +240,80 @@ h1, h2, h3, h4, h5, h6 {
 :focus {
   outline: 2px solid $primary;
   outline-offset: 2px;
+}
+
+// Scroll animations
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+.animate-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// Staggered animations
+@for $i from 1 through 10 {
+  .animate-delay-#{$i} {
+    transition-delay: $i * 0.1s;
+  }
+}
+
+// Different animation types
+.animate-fade-in {
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
+  
+  &.animate-visible {
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  
+  &.animate-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-right {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  
+  &.animate-visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  
+  &.animate-visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  
+  &.animate-visible {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 // Ensure sufficient color contrast

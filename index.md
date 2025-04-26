@@ -31,7 +31,7 @@ description: Nova AI combines human-centered design with AI to create innovative
 <!-- Overview Section -->
 <section id="overview" class="py-20 bg-black">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-3xl mx-auto text-center mb-16">
+    <div class="max-w-3xl mx-auto text-center mb-16 animate-on-scroll animate-fade-in">
       <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">Human Experience, AI Enhanced</h2>
       <p class="text-xl text-gray-300">
         We create apps that put people first, supercharged with AI to deliver experiences that are intuitive, meaningful, and truly helpful.
@@ -39,7 +39,7 @@ description: Nova AI combines human-centered design with AI to create innovative
     </div>
     
     <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 transform transition duration-300 hover:scale-105 border border-gray-800">
+      <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 transform transition duration-300 hover:scale-105 border border-gray-800 animate-on-scroll animate-slide-up animate-delay-1">
         <div class="text-purple-500 mb-4 text-4xl">
           <i class="lucide-heart"></i>
         </div>
@@ -49,7 +49,7 @@ description: Nova AI combines human-centered design with AI to create innovative
         </p>
       </div>
       
-      <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 transform transition duration-300 hover:scale-105 border border-gray-800">
+      <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 transform transition duration-300 hover:scale-105 border border-gray-800 animate-on-scroll animate-slide-up animate-delay-2">
         <div class="text-blue-500 mb-4 text-4xl">
           <i class="lucide-zap"></i>
         </div>
@@ -59,7 +59,7 @@ description: Nova AI combines human-centered design with AI to create innovative
         </p>
       </div>
       
-      <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 transform transition duration-300 hover:scale-105 border border-gray-800">
+      <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 transform transition duration-300 hover:scale-105 border border-gray-800 animate-on-scroll animate-slide-up animate-delay-3">
         <div class="text-green-500 mb-4 text-4xl">
           <i class="lucide-layers"></i>
         </div>
@@ -75,7 +75,7 @@ description: Nova AI combines human-centered design with AI to create innovative
 <!-- Features Section -->
 <section id="features" class="py-20 bg-gradient-to-b from-black to-gray-900">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-3xl mx-auto text-center mb-16">
+    <div class="max-w-3xl mx-auto text-center mb-16 animate-on-scroll animate-fade-in">
       <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">Our Approach</h2>
       <p class="text-xl text-gray-300">
         We blend human insight with AI capabilities to create apps that truly connect with people in meaningful ways.
@@ -83,7 +83,7 @@ description: Nova AI combines human-centered design with AI to create innovative
     </div>
     
     <div class="grid md:grid-cols-2 gap-12 items-center mb-24">
-      <div class="order-2 md:order-1">
+      <div class="order-2 md:order-1 animate-on-scroll animate-slide-right">
         <h3 class="text-2xl font-bold mb-4 text-white">Empathetic Design</h3>
         <p class="text-gray-300 mb-6">
           We start with understanding people's needs, behaviors, and emotions, creating intuitive interfaces that feel natural and helpful.
@@ -103,7 +103,7 @@ description: Nova AI combines human-centered design with AI to create innovative
           </li>
         </ul>
       </div>
-      <div class="order-1 md:order-2 bg-gray-900/50 rounded-xl p-6 border border-gray-800 backdrop-blur-sm">
+      <div class="order-1 md:order-2 bg-gray-900/50 rounded-xl p-6 border border-gray-800 backdrop-blur-sm animate-on-scroll animate-slide-left">
         <div class="code-window">
           <div class="code-header flex justify-between items-center mb-4 px-4">
             <div class="flex space-x-2">
@@ -128,10 +128,10 @@ description: Nova AI combines human-centered design with AI to create innovative
     </div>
     
     <div class="grid md:grid-cols-2 gap-12 items-center">
-      <div class="bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800 backdrop-blur-sm">
+      <div class="bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800 backdrop-blur-sm animate-on-scroll animate-slide-right">
         <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Human+Centered+Design" alt="Human Centered Design with AI" class="w-full">
       </div>
-      <div>
+      <div class="animate-on-scroll animate-slide-left">
         <h3 class="text-2xl font-bold mb-4 text-white">AI That Understands</h3>
         <p class="text-gray-300 mb-6">
           Our AI integration enhances human experiences rather than replacing them, creating assistive features that feel natural and helpful.
@@ -159,14 +159,14 @@ description: Nova AI combines human-centered design with AI to create innovative
 <section class="py-20 bg-gradient-to-t from-black to-indigo-900 relative">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white">Something Extraordinary is Being Built</h2>
+      <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white animate-on-scroll animate-fade-in">Something Extraordinary is Being Built</h2>
       
-      <p class="text-xl text-gray-300 mb-12">
+      <p class="text-xl text-gray-300 mb-12 animate-on-scroll animate-fade-in animate-delay-1">
         We're creating a new generation of apps that blend human-centered design with AI to deliver experiences that truly enhance people's lives. 
         Our approach puts people first, using AI thoughtfully to create apps that feel intuitive, helpful, and surprisingly human.
       </p>
       
-      <div class="inline-block bg-gray-900/40 backdrop-blur-md p-8 rounded-xl border border-gray-700/50">
+      <div class="inline-block bg-gray-900/40 backdrop-blur-md p-8 rounded-xl border border-gray-700/50 animate-on-scroll animate-scale animate-delay-2">
         <h3 class="text-2xl font-bold mb-6 text-white">Get in Touch</h3>
         <p class="text-xl text-gray-300 mb-6">
           Have a project in mind? Want to learn more about our approach?
@@ -174,6 +174,19 @@ description: Nova AI combines human-centered design with AI to create innovative
         <a href="mailto:hello@novacomputing.ca" class="glass-btn-lg px-8 py-3 rounded-lg inline-flex items-center">
           <i class="lucide-mail mr-2"></i> hello@novacomputing.ca
         </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 bg-gradient-to-br from-purple-900/80 to-indigo-900/80 backdrop-blur-md">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center animate-on-scroll animate-fade-in">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-white">Ready to create something meaningful?</h2>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="{{ '/contact/' | relative_url }}" class="glass-btn-lg px-8 py-3 rounded-lg">Get in Touch</a>
+        <a href="{{ '/about/' | relative_url }}" class="glass-btn-outline px-8 py-3 rounded-lg">About Us</a>
       </div>
     </div>
   </div>

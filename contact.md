@@ -9,12 +9,12 @@ permalink: /contact/
   <div class="md:grid-cols-1 max-w-3xl mx-auto">
     <!-- Contact Information -->
     <div>
-      <h2 class="text-2xl font-bold mb-6 font-heading">Contact Information</h2>
+      <h2 class="text-2xl font-bold mb-6 font-heading animate-on-scroll animate-fade-in">Contact Information</h2>
       
       <div class="mb-8">
-        <p class="text-lg mb-4">We'd love to hear from you! Whether you have a question about our services, want to discuss a potential project, or are interested in our AI platform, feel free to reach out.</p>
+        <p class="text-lg mb-4 animate-on-scroll animate-fade-in animate-delay-1">We'd love to hear from you! Whether you have a question about our services, want to discuss a potential project, or are interested in our AI platform, feel free to reach out.</p>
         
-        <div class="bg-gray-900/40 backdrop-blur-lg rounded-lg p-6 mt-6 border border-gray-700/50">
+        <div class="bg-gray-900/40 backdrop-blur-lg rounded-lg p-6 mt-6 border border-gray-700/50 animate-on-scroll animate-slide-up animate-delay-2">
           <div class="mb-4">
             <p class="font-medium text-white">Informatique Intégrale Nova Inc.</p>
             <p>Montreal, QC, Canada</p>
@@ -28,7 +28,7 @@ permalink: /contact/
           </div>
         </div>
 
-        <div class="mt-8 text-center">
+        <div class="mt-8 text-center animate-on-scroll animate-scale animate-delay-3">
           <a href="mailto:hello@novacomputing.ca" class="glass-btn-lg rounded-lg py-3 px-8 hover-effect inline-flex items-center">
             <i class="lucide-mail mr-2"></i> Email Us
           </a>
