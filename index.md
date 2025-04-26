@@ -171,22 +171,9 @@ description: Nova AI combines human-centered design with AI to create innovative
         <p class="text-xl text-gray-300 mb-6">
           Have a project in mind? Want to learn more about our approach?
         </p>
-        <a href="mailto:hello@nova-apps.com" class="glass-btn-lg px-8 py-3 rounded-lg inline-flex items-center">
-          <i class="lucide-mail mr-2"></i> hello@nova-apps.com
+        <a href="mailto:hello@novacomputing.ca" class="glass-btn-lg px-8 py-3 rounded-lg inline-flex items-center">
+          <i class="lucide-mail mr-2"></i> hello@novacomputing.ca
         </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA Section -->
-<section class="py-16 bg-gradient-to-br from-purple-900/80 to-indigo-900/80 backdrop-blur-md">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-white">Ready to create something meaningful?</h2>
-      <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <a href="{{ '/contact/' | relative_url }}" class="glass-btn-lg px-8 py-3 rounded-lg">Get in Touch</a>
-        <a href="{{ '/about/' | relative_url }}" class="glass-btn-outline px-8 py-3 rounded-lg">About Us</a>
       </div>
     </div>
   </div>
