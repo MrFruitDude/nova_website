@@ -9,8 +9,7 @@ description: Nova - Innovative software. Thoughtful experiences. We build cuttin
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
     <div class="text-center">
       <div class="mb-8">
-        <span class="text-6xl md:text-7xl font-black tracking-tight text-primary inline-block mb-2">NOVA</span>
-        <span class="text-xl text-gray-300 block">COMPUTING</span>
+        <span class="text-6xl md:text-7xl font-black tracking-tight text-primary inline-block">NOVA</span>
       </div>
       <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-4 font-heading">
         Innovative software.<br>Thoughtful experiences.
@@ -89,7 +88,7 @@ description: Nova - Innovative software. Thoughtful experiences. We build cuttin
       <!-- App 1: Poker Timer -->
       <div class="app-card card p-4">
         <div class="bg-gray-700 p-4 rounded-lg mb-4 flex items-center justify-center">
-          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/b8/b0/9cb8b0a6-aa8d-d236-c543-a772e7a2f438/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="Poker Timer App" class="h-24 w-24 object-contain">
+          <div class="h-24 w-24 bg-blue-500 rounded-xl flex items-center justify-center text-white font-bold">PT</div>
         </div>
         <h3 class="text-xl font-bold mb-1">Poker Timer</h3>
         <p class="text-gray-300 text-sm mb-2">Professional tournament timer.</p>
@@ -97,7 +96,7 @@ description: Nova - Innovative software. Thoughtful experiences. We build cuttin
           <span class="platform-badge">iOS</span>
           <span class="platform-badge">iPadOS</span>
         </div>
-        <a href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6475245903" class="btn btn-outline text-sm w-full mt-auto" target="_blank" rel="noopener noreferrer">
+        <a href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6475245903" class="btn btn-outline text-sm w-full mt-auto hover-effect" target="_blank" rel="noopener noreferrer">
           View in App Store
         </a>
       </div>
@@ -105,7 +104,7 @@ description: Nova - Innovative software. Thoughtful experiences. We build cuttin
       <!-- App 2: Mini Moves -->
       <div class="app-card card p-4">
         <div class="bg-gray-700 p-4 rounded-lg mb-4 flex items-center justify-center">
-          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ca/e5/7a/cae57afe-ef85-a3e8-5650-b56be89085a0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="Mini Moves App" class="h-24 w-24 object-contain">
+          <div class="h-24 w-24 bg-green-500 rounded-xl flex items-center justify-center text-white font-bold">MM</div>
         </div>
         <h3 class="text-xl font-bold mb-1">Mini Moves</h3>
         <p class="text-gray-300 text-sm mb-2">Tiny habit tracker.</p>
@@ -113,7 +112,7 @@ description: Nova - Innovative software. Thoughtful experiences. We build cuttin
           <span class="platform-badge">iOS</span>
           <span class="platform-badge">iPadOS</span>
         </div>
-        <a href="https://apps.apple.com/us/app/mini-moves-tiny-habit-tracker/id6474584176" class="btn btn-outline text-sm w-full mt-auto" target="_blank" rel="noopener noreferrer">
+        <a href="https://apps.apple.com/us/app/mini-moves-tiny-habit-tracker/id6474584176" class="btn btn-outline text-sm w-full mt-auto hover-effect" target="_blank" rel="noopener noreferrer">
           View in App Store
         </a>
       </div>
@@ -121,14 +120,14 @@ description: Nova - Innovative software. Thoughtful experiences. We build cuttin
       <!-- App 3: HerSpace -->
       <div class="app-card card p-4">
         <div class="bg-gray-700 p-4 rounded-lg mb-4 flex items-center justify-center">
-          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/3b/91/6c3b9191-de0d-7b98-dc2a-5aa1227f486e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="HerSpace App" class="h-24 w-24 object-contain">
+          <div class="h-24 w-24 bg-purple-500 rounded-xl flex items-center justify-center text-white font-bold">HS</div>
         </div>
         <h3 class="text-xl font-bold mb-1">HerSpace</h3>
         <p class="text-gray-300 text-sm mb-2">Journaling for moms.</p>
         <div class="mb-3">
           <span class="platform-badge">iOS</span>
         </div>
-        <a href="https://apps.apple.com/us/app/herspace-journaling-for-moms/id6474638989" class="btn btn-outline text-sm w-full mt-auto" target="_blank" rel="noopener noreferrer">
+        <a href="https://apps.apple.com/us/app/herspace-journaling-for-moms/id6474638989" class="btn btn-outline text-sm w-full mt-auto hover-effect" target="_blank" rel="noopener noreferrer">
           View in App Store
         </a>
       </div>
@@ -136,14 +135,14 @@ description: Nova - Innovative software. Thoughtful experiences. We build cuttin
       <!-- App 4: Playlist Transfer -->
       <div class="app-card card p-4">
         <div class="bg-gray-700 p-4 rounded-lg mb-4 flex items-center justify-center">
-          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ae/37/c5/ae37c582-5f30-ed18-6e0f-d81c5539fc78/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="Playlist Transfer App" class="h-24 w-24 object-contain">
+          <div class="h-24 w-24 bg-pink-500 rounded-xl flex items-center justify-center text-white font-bold">PT</div>
         </div>
         <h3 class="text-xl font-bold mb-1">Playlist Transfer</h3>
         <p class="text-gray-300 text-sm mb-2">Easy music sync.</p>
         <div class="mb-3">
           <span class="platform-badge">iOS</span>
         </div>
-        <a href="https://apps.apple.com/us/app/playlist-transfer-easy-sync/id6470896576" class="btn btn-outline text-sm w-full mt-auto" target="_blank" rel="noopener noreferrer">
+        <a href="https://apps.apple.com/us/app/playlist-transfer-easy-sync/id6470896576" class="btn btn-outline text-sm w-full mt-auto hover-effect" target="_blank" rel="noopener noreferrer">
           View in App Store
         </a>
       </div>

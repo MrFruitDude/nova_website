@@ -12,7 +12,9 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
   <div class="grid md:grid-cols-2 gap-8">
     <!-- App 1: Poker Timer -->
     <div class="card overflow-hidden fade-in" style="animation-delay: 0.1s">
-      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/b8/b0/9cb8b0a6-aa8d-d236-c543-a772e7a2f438/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="Poker Timer App" class="w-full aspect-video object-contain bg-gray-700 p-4">
+      <div class="w-full aspect-video bg-gray-700 p-8 flex items-center justify-center">
+        <div class="h-32 w-32 bg-blue-500 rounded-xl flex items-center justify-center text-white text-3xl font-bold">PT</div>
+      </div>
       <div class="p-6">
         <div class="flex justify-between items-start">
           <div>
@@ -30,7 +32,7 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
         </p>
         
         <div class="flex justify-between items-center">
-          <a href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6475245903" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6475245903" class="btn btn-outline hover-effect" target="_blank" rel="noopener noreferrer">
             View in App Store
           </a>
           <span class="text-gray-400">Card Games</span>
@@ -40,7 +42,9 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
     
     <!-- App 2: Mini Moves -->
     <div class="card overflow-hidden fade-in" style="animation-delay: 0.2s">
-      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ca/e5/7a/cae57afe-ef85-a3e8-5650-b56be89085a0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="Mini Moves App" class="w-full aspect-video object-contain bg-gray-700 p-4">
+      <div class="w-full aspect-video bg-gray-700 p-8 flex items-center justify-center">
+        <div class="h-32 w-32 bg-green-500 rounded-xl flex items-center justify-center text-white text-3xl font-bold">MM</div>
+      </div>
       <div class="p-6">
         <div class="flex justify-between items-start">
           <div>
@@ -58,7 +62,7 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
         </p>
         
         <div class="flex justify-between items-center">
-          <a href="https://apps.apple.com/us/app/mini-moves-tiny-habit-tracker/id6474584176" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/us/app/mini-moves-tiny-habit-tracker/id6474584176" class="btn btn-outline hover-effect" target="_blank" rel="noopener noreferrer">
             View in App Store
           </a>
           <span class="text-gray-400">Productivity</span>
@@ -68,7 +72,9 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
     
     <!-- App 3: HerSpace -->
     <div class="card overflow-hidden fade-in" style="animation-delay: 0.3s">
-      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/3b/91/6c3b9191-de0d-7b98-dc2a-5aa1227f486e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="HerSpace App" class="w-full aspect-video object-contain bg-gray-700 p-4">
+      <div class="w-full aspect-video bg-gray-700 p-8 flex items-center justify-center">
+        <div class="h-32 w-32 bg-purple-500 rounded-xl flex items-center justify-center text-white text-3xl font-bold">HS</div>
+      </div>
       <div class="p-6">
         <div class="flex justify-between items-start">
           <div>
@@ -85,7 +91,7 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
         </p>
         
         <div class="flex justify-between items-center">
-          <a href="https://apps.apple.com/us/app/herspace-journaling-for-moms/id6474638989" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/us/app/herspace-journaling-for-moms/id6474638989" class="btn btn-outline hover-effect" target="_blank" rel="noopener noreferrer">
             View in App Store
           </a>
           <span class="text-gray-400">Lifestyle</span>
@@ -95,7 +101,9 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
     
     <!-- App 4: Playlist Transfer -->
     <div class="card overflow-hidden fade-in" style="animation-delay: 0.4s">
-      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ae/37/c5/ae37c582-5f30-ed18-6e0f-d81c5539fc78/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" alt="Playlist Transfer App" class="w-full aspect-video object-contain bg-gray-700 p-4">
+      <div class="w-full aspect-video bg-gray-700 p-8 flex items-center justify-center">
+        <div class="h-32 w-32 bg-pink-500 rounded-xl flex items-center justify-center text-white text-3xl font-bold">PT</div>
+      </div>
       <div class="p-6">
         <div class="flex justify-between items-start">
           <div>
@@ -112,7 +120,7 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
         </p>
         
         <div class="flex justify-between items-center">
-          <a href="https://apps.apple.com/us/app/playlist-transfer-easy-sync/id6470896576" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/us/app/playlist-transfer-easy-sync/id6470896576" class="btn btn-outline hover-effect" target="_blank" rel="noopener noreferrer">
             View in App Store
           </a>
           <span class="text-gray-400">Music</span>
@@ -125,7 +133,7 @@ description: Discover our collection of apps for iOS and iPadOS. From productivi
     <p class="text-xl text-gray-300 mb-6">
       Looking for a custom app for your business? We can help with that too!
     </p>
-    <a href="{{ '/services/#custom-app-development' | relative_url }}" class="btn btn-primary">
+    <a href="{{ '/services/#custom-app-development' | relative_url }}" class="btn btn-primary hover-effect">
       Learn about custom development
     </a>
   </div>
