@@ -129,7 +129,7 @@ description: Nova AI combines human-centered design with AI to create innovative
     
     <div class="grid md:grid-cols-2 gap-12 items-center">
       <div class="bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800 backdrop-blur-sm animate-on-scroll animate-slide-right">
-        <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Human+Centered+Design" alt="Human Centered Design with AI" class="w-full">
+        <img src="{{ '/assets/img/hcd-ai.svg' | relative_url }}" alt="Human Centered Design with AI" class="w-full">
       </div>
       <div class="animate-on-scroll animate-slide-left">
         <h3 class="text-2xl font-bold mb-4 text-white">AI That Understands</h3>
